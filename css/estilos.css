@@ -1,0 +1,94 @@
+:root {
+  --color-primary: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.header__container,
+.acerca-de__container,
+.menu__container,
+.galeria__contianer,
+.ubicacion__container,
+.mapa__container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: url(../img/bg.jpg) #281a0c;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0;
+}
+
+.header__container {
+  position: relative;
+  height: 700px;
+}
+.header__nav {
+  width: 100%;
+  text-align: right;
+}
+.header__thumbnail {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 40px 20px;
+  text-decoration: none;
+  position: relative;
+  transition: text-decoration 0.15s;
+  transition: color 0.15s;
+}
+.header__thumbnail::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--color-primary);
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+  transition: opacity 150ms, transform 150ms;
+}
+.header__thumbnail:hover::after, .header__thumbnail:focus::after {
+  transform: scale(1);
+}
+.header__textos {
+  width: 100%;
+  color: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  margin-top: -52px;
+}
+.header__title {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.header__title span {
+  font-weight: 300;
+}
+.header__subtitle {
+  font-weight: 300;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=estilos.css.map */

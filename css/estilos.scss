@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.header__container,
+.acerca-de__container,
+.menu__container,
+.galeria__contianer,
+.ubicacion__container,
+.mapa__container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@import "header";
