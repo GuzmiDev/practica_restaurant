@@ -261,4 +261,58 @@ footer .footer__copyright {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header__thumbnail {
+    margin: 0;
+  }
+  .header__title {
+    text-align: center;
+    font-size: 3.6rem;
+  }
+  .header__subtitle {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .acerca-de__img {
+    width: 100%;
+  }
+  .acerca-de__article {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .menu__menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__article {
+    width: 100%;
+  }
+
+  .galeria__img {
+    width: 50%;
+  }
+
+  .ubicacion__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ubicacion__address {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+  .ubicacion__schedule {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
