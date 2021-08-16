@@ -100,6 +100,8 @@ main {
 .acerca-de__container {
   overflow: visible;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 .acerca-de__img {
   width: 80%;
@@ -118,17 +120,18 @@ main {
   padding: 40px;
   width: 50%;
   position: relative;
-  float: right;
-  top: 30px;
+  top: 50px;
   z-index: 1;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
-  line-height: 28px;
-  margin-bottom: 15px;
 }
 .acerca-de__article h3 {
   font-size: 5rem;
   font-weight: 300;
   margin-bottom: 40px;
+}
+.acerca-de__article p {
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
