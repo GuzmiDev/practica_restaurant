@@ -9,7 +9,7 @@ header {
 .header {
   &__container {
     position: relative;
-    height: 700px;
+    height: 560px;
   }
   &__nav {
     width: 100%;
@@ -48,7 +48,7 @@ header {
     color: var(--color-primary);
     position: absolute;
     top: 50%;
-    margin-top: -52px;
+    margin-top: -86px;
   }
   &__title {
     font-size: 5rem;
