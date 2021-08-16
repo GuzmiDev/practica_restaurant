@@ -134,4 +134,61 @@ main {
   margin-bottom: 15px;
 }
 
+.menu {
+  padding-top: 80px;
+  margin-bottom: 52px;
+}
+.menu__menu {
+  border: 1px solid;
+  position: relative;
+  display: flex;
+}
+.menu__menu::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: -15px;
+  padding: 15px;
+  position: absolute;
+  border: 1px solid;
+}
+.menu__title {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.menu__article {
+  width: 50%;
+  padding: 20px;
+}
+.menu__category {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.menu__dish {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px dotted #000;
+}
+.menu__name {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: left;
+}
+.menu__price {
+  float: right;
+  font-size: 2 rem;
+  margin-bottom: 15px;
+}
+.menu__description {
+  font-size: 1.6rem;
+  color: #676767;
+  clear: both;
+}
+
 /*# sourceMappingURL=estilos.css.map */
