@@ -1,0 +1,19 @@
+{
+  "name": "practica_web_restaurante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./css/estilos.scss:./css/estilos.css"  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuzMi-Hub/practica_restaurant.git"
+  },
+  "keywords": [],
+  "author": "Erick Fernando Guzman Valerio <guzmi.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuzMi-Hub/practica_restaurant/issues"
+  },
+  "homepage": "https://github.com/GuzMi-Hub/practica_restaurant#readme"
+}
