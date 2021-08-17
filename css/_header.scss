@@ -26,6 +26,9 @@ header {
     position: relative;
     transition: text-decoration 0.15s;
     transition: color 0.15s;
+    animation-name: aparecer;
+    animation-duration: 1.6s;
+
     &::after {
       content: "";
       position: absolute;
@@ -43,6 +46,12 @@ header {
     &:focus::after {
       transform: scale(1);
     }
+    @keyframes aparecer {
+      0% {
+        opacity: 0;
+        transform: translate(0, -40px);
+      }
+    }
   }
   &__textos {
     width: 100%;
@@ -50,6 +59,14 @@ header {
     position: absolute;
     top: 50%;
     margin-top: -86px;
+    animation-name: aparecer-text;
+    animation-duration: 1.5s;
+    @keyframes aparecer-text {
+      0% {
+        transform: translate(0, 60px);
+        opacity: 0;
+      }
+    }
   }
   &__title {
     font-size: 5rem;
